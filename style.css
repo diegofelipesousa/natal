@@ -1,0 +1,32 @@
+h1{
+    min-height: 870px;
+  
+   
+}
+
+div> img{
+    max-width: 650px;
+    display: block;
+    margin:auto;
+    border-right: 25px;}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7e1da;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.gift-container {
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.gift-container:hover {
+    transform: scale(1.1);
+}
